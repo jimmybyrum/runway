@@ -1,0 +1,22 @@
+{
+  "name": "person",
+  "attributes": {
+    "name": {
+      "type": "String"
+    },
+    "birthday": {
+      "type": "Date"
+    },
+    "age": {
+      "type": "Number"
+    },
+    "gender": {
+      "type": "Enum",
+      "values": ["male", "female"]
+    },
+    "active": {
+      "type": "Boolean",
+      "default": true
+    }
+  }
+}
